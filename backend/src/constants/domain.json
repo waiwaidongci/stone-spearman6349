@@ -21,6 +21,12 @@
   "defaults": {
     "resamples": 4999
   },
+  "sequential": {
+    "alpha": 0.05,
+    "label": "序贯证据监测",
+    "statuses": ["running", "frozen", "exhausted"],
+    "outcomes": ["concordant", "discordant", "tie"]
+  },
   "names": [
     "澄石·细砂岩批次",
     "澄石·灰岩对照",
